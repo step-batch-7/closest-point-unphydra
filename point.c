@@ -2,9 +2,7 @@
 
 double get_distance(Point a, Point b)
 {
-  double dx = pow((a.x - b.x),2);
-  double dy = pow((a.y - b.y),2);
-  return sqrt(dx+dy);
+  return sqrt( pow((a.x - b.x),2)+pow((a.y - b.y),2));
 }
 
 void get_closest_food(Point food_points[], int points_length, Point current_location, Point *closest_food_location)
