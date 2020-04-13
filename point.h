@@ -18,6 +18,8 @@ Location of organism: [36 27],  Closest food target : [55 38]
 #define LENGTH 5
 #define FOOD_POINTS {{18,76}, {19,66}, {89,57}, {9,71}, {55,38}}
 #define LOCATIONS {{18,86},{97,27},{69,7},{10,94},{36,27}}
+#define COUNTS sizeof(current_location)/sizeof(current_location[0])
+#define LOOPS(start, stop) for (int i = start; i < stop; i++)
 typedef struct
 {
   int x;
