@@ -2,9 +2,9 @@
 
 int main(void)
 {
-  Point food_points[5] = {{18,76}, {19,66}, {89,57}, {9,71}, {55,38}}; 
-  int points_length = 5;
-  Point current_location[] = {{18,86},{97,27},{69,7},{10,94},{36,27}};
+  Point food_points[LENGTH] = FOOD_POINTS; 
+  int points_length = LENGTH;
+  Point current_location[] = LOCATIONS;
   Point closest_food_location = {0,0};
   for (int i = 0; i < 5; i++)
   {

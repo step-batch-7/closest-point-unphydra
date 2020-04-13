@@ -14,6 +14,10 @@ Location of organism: [36 27],  Closest food target : [55 38]
 */
 #include <stdio.h>
 #include <math.h>
+
+#define LENGTH 5
+#define FOOD_POINTS {{18,76}, {19,66}, {89,57}, {9,71}, {55,38}}
+#define LOCATIONS {{18,86},{97,27},{69,7},{10,94},{36,27}}
 typedef struct
 {
   int x;
